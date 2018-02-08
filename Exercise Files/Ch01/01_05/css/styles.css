@@ -1,0 +1,89 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+}
+
+h1, h2 {
+	font-family: 'Caveat', cursive;
+	font-weight: 400;
+	margin: 0;
+}
+
+h1 {
+	font-size: 80px;
+}
+
+h2 {
+	font-size: 40px;
+	margin-top: 0;
+}
+
+a {
+	color: #ef233c;
+}
+.content-wrap {
+	max-width: 950px;
+	margin: 0 auto;
+	padding: 50px;
+	overflow: hidden;
+}
+
+.narrow-col {
+	width: 30%;
+	float: left;
+	min-height: 175px;
+}
+.wide-col {
+	width: 70%;
+	float: left;
+	padding-left: 20px;
+	min-height: 175px;
+}
+
+/* Header */
+
+.profile-image {
+	border-radius: 50%;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+header {
+	/* text-align: center; */
+}
+
+header h1, header h2 {
+	color: #edf2f4;
+}
+
+/* footer */
+footer {
+	text-align: center;
+}
+
+header, footer {
+	color: #8d99ae;
+	background: #2b2d42;
+}
+
+.work {
+	background: #edf2f4;
+}
+.education {
+	background: #8d99ae;
+}
+
+.contact-info a {
+	padding: 10px;
+	display: inline-block;
+}
