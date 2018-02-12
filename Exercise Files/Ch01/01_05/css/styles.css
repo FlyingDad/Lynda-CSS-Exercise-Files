@@ -57,10 +57,17 @@ a:hover {
   text-transform: uppercase;
 }
 
-
+.btn {
+  text-decoration: none;
+  background: #EF233C;
+  color: white;
+  padding: 10px;
+  display: inline-block;
+}
 /* Header and Footer
 -------------------------*/
 header {
+  position: relative;
   padding-top: 50px;
 }
 header, footer {
@@ -70,10 +77,15 @@ header, footer {
 /* header */
 header h1, header h2 {
   color: #EDF2F4;
-  margin: 0;
 }
 .profile-img {
   border-radius: 50%;
+}
+
+.download {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 /* footer */
 footer {
